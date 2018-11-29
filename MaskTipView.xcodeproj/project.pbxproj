@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04361F9121AFF53C0082A3F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361F9021AFF53C0082A3F6 /* AppDelegate.m */; };
+		04361F9421AFF53C0082A3F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361F9321AFF53C0082A3F6 /* ViewController.m */; };
+		04361F9721AFF53C0082A3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04361F9521AFF53C0082A3F6 /* Main.storyboard */; };
+		04361F9921AFF5520082A3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04361F9821AFF5520082A3F6 /* Assets.xcassets */; };
+		04361F9C21AFF5530082A3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04361F9A21AFF5530082A3F6 /* LaunchScreen.storyboard */; };
+		04361F9F21AFF5530082A3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361F9E21AFF5530082A3F6 /* main.m */; };
+		04361FA921AFF5530082A3F6 /* MaskTipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361FA821AFF5530082A3F6 /* MaskTipViewTests.m */; };
+		04361FB421AFF5530082A3F6 /* MaskTipViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361FB321AFF5530082A3F6 /* MaskTipViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04361FA521AFF5530082A3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04361F8421AFF53C0082A3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04361F8B21AFF53C0082A3F6;
+			remoteInfo = MaskTipView;
+		};
+		04361FB021AFF5530082A3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04361F8421AFF53C0082A3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04361F8B21AFF53C0082A3F6;
+			remoteInfo = MaskTipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04361F8C21AFF53C0082A3F6 /* MaskTipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskTipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04361F8F21AFF53C0082A3F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04361F9021AFF53C0082A3F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04361F9221AFF53C0082A3F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04361F9321AFF53C0082A3F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04361F9621AFF53C0082A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04361F9821AFF5520082A3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04361F9B21AFF5530082A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04361F9D21AFF5530082A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04361F9E21AFF5530082A3F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04361FA421AFF5530082A3F6 /* MaskTipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskTipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04361FA821AFF5530082A3F6 /* MaskTipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskTipViewTests.m; sourceTree = "<group>"; };
+		04361FAA21AFF5530082A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04361FAF21AFF5530082A3F6 /* MaskTipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskTipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04361FB321AFF5530082A3F6 /* MaskTipViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskTipViewUITests.m; sourceTree = "<group>"; };
+		04361FB521AFF5530082A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04361F8921AFF53C0082A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04361FA121AFF5530082A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04361FAC21AFF5530082A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04361F8321AFF53C0082A3F6 = {
+			isa = PBXGroup;
+			children = (
+				04361F8E21AFF53C0082A3F6 /* MaskTipView */,
+				04361FA721AFF5530082A3F6 /* MaskTipViewTests */,
+				04361FB221AFF5530082A3F6 /* MaskTipViewUITests */,
+				04361F8D21AFF53C0082A3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04361F8D21AFF53C0082A3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04361F8C21AFF53C0082A3F6 /* MaskTipView.app */,
+				04361FA421AFF5530082A3F6 /* MaskTipViewTests.xctest */,
+				04361FAF21AFF5530082A3F6 /* MaskTipViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04361F8E21AFF53C0082A3F6 /* MaskTipView */ = {
+			isa = PBXGroup;
+			children = (
+				04361F8F21AFF53C0082A3F6 /* AppDelegate.h */,
+				04361F9021AFF53C0082A3F6 /* AppDelegate.m */,
+				04361F9221AFF53C0082A3F6 /* ViewController.h */,
+				04361F9321AFF53C0082A3F6 /* ViewController.m */,
+				04361F9521AFF53C0082A3F6 /* Main.storyboard */,
+				04361F9821AFF5520082A3F6 /* Assets.xcassets */,
+				04361F9A21AFF5530082A3F6 /* LaunchScreen.storyboard */,
+				04361F9D21AFF5530082A3F6 /* Info.plist */,
+				04361F9E21AFF5530082A3F6 /* main.m */,
+			);
+			path = MaskTipView;
+			sourceTree = "<group>";
+		};
+		04361FA721AFF5530082A3F6 /* MaskTipViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04361FA821AFF5530082A3F6 /* MaskTipViewTests.m */,
+				04361FAA21AFF5530082A3F6 /* Info.plist */,
+			);
+			path = MaskTipViewTests;
+			sourceTree = "<group>";
+		};
+		04361FB221AFF5530082A3F6 /* MaskTipViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04361FB321AFF5530082A3F6 /* MaskTipViewUITests.m */,
+				04361FB521AFF5530082A3F6 /* Info.plist */,
+			);
+			path = MaskTipViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04361F8B21AFF53C0082A3F6 /* MaskTipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04361FB821AFF5530082A3F6 /* Build configuration list for PBXNativeTarget "MaskTipView" */;
+			buildPhases = (
+				04361F8821AFF53C0082A3F6 /* Sources */,
+				04361F8921AFF53C0082A3F6 /* Frameworks */,
+				04361F8A21AFF53C0082A3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskTipView;
+			productName = MaskTipView;
+			productReference = 04361F8C21AFF53C0082A3F6 /* MaskTipView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04361FA321AFF5530082A3F6 /* MaskTipViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04361FBB21AFF5530082A3F6 /* Build configuration list for PBXNativeTarget "MaskTipViewTests" */;
+			buildPhases = (
+				04361FA021AFF5530082A3F6 /* Sources */,
+				04361FA121AFF5530082A3F6 /* Frameworks */,
+				04361FA221AFF5530082A3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04361FA621AFF5530082A3F6 /* PBXTargetDependency */,
+			);
+			name = MaskTipViewTests;
+			productName = MaskTipViewTests;
+			productReference = 04361FA421AFF5530082A3F6 /* MaskTipViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04361FAE21AFF5530082A3F6 /* MaskTipViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04361FBE21AFF5530082A3F6 /* Build configuration list for PBXNativeTarget "MaskTipViewUITests" */;
+			buildPhases = (
+				04361FAB21AFF5530082A3F6 /* Sources */,
+				04361FAC21AFF5530082A3F6 /* Frameworks */,
+				04361FAD21AFF5530082A3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04361FB121AFF5530082A3F6 /* PBXTargetDependency */,
+			);
+			name = MaskTipViewUITests;
+			productName = MaskTipViewUITests;
+			productReference = 04361FAF21AFF5530082A3F6 /* MaskTipViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04361F8421AFF53C0082A3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = DuWenliang;
+				TargetAttributes = {
+					04361F8B21AFF53C0082A3F6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					04361FA321AFF5530082A3F6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04361F8B21AFF53C0082A3F6;
+					};
+					04361FAE21AFF5530082A3F6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04361F8B21AFF53C0082A3F6;
+					};
+				};
+			};
+			buildConfigurationList = 04361F8721AFF53C0082A3F6 /* Build configuration list for PBXProject "MaskTipView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04361F8321AFF53C0082A3F6;
+			productRefGroup = 04361F8D21AFF53C0082A3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04361F8B21AFF53C0082A3F6 /* MaskTipView */,
+				04361FA321AFF5530082A3F6 /* MaskTipViewTests */,
+				04361FAE21AFF5530082A3F6 /* MaskTipViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04361F8A21AFF53C0082A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04361F9C21AFF5530082A3F6 /* LaunchScreen.storyboard in Resources */,
+				04361F9921AFF5520082A3F6 /* Assets.xcassets in Resources */,
+				04361F9721AFF53C0082A3F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04361FA221AFF5530082A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04361FAD21AFF5530082A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04361F8821AFF53C0082A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04361F9421AFF53C0082A3F6 /* ViewController.m in Sources */,
+				04361F9F21AFF5530082A3F6 /* main.m in Sources */,
+				04361F9121AFF53C0082A3F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04361FA021AFF5530082A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04361FA921AFF5530082A3F6 /* MaskTipViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04361FAB21AFF5530082A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04361FB421AFF5530082A3F6 /* MaskTipViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04361FA621AFF5530082A3F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04361F8B21AFF53C0082A3F6 /* MaskTipView */;
+			targetProxy = 04361FA521AFF5530082A3F6 /* PBXContainerItemProxy */;
+		};
+		04361FB121AFF5530082A3F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04361F8B21AFF53C0082A3F6 /* MaskTipView */;
+			targetProxy = 04361FB021AFF5530082A3F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04361F9521AFF53C0082A3F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04361F9621AFF53C0082A3F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04361F9A21AFF5530082A3F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04361F9B21AFF5530082A3F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04361FB621AFF5530082A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04361FB721AFF5530082A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04361FB921AFF5530082A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskTipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnki.MaskTipView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04361FBA21AFF5530082A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskTipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnki.MaskTipView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04361FBC21AFF5530082A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskTipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnki.MaskTipViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskTipView.app/MaskTipView";
+			};
+			name = Debug;
+		};
+		04361FBD21AFF5530082A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskTipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnki.MaskTipViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskTipView.app/MaskTipView";
+			};
+			name = Release;
+		};
+		04361FBF21AFF5530082A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskTipViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnki.MaskTipViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaskTipView;
+			};
+			name = Debug;
+		};
+		04361FC021AFF5530082A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskTipViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnki.MaskTipViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaskTipView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04361F8721AFF53C0082A3F6 /* Build configuration list for PBXProject "MaskTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04361FB621AFF5530082A3F6 /* Debug */,
+				04361FB721AFF5530082A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04361FB821AFF5530082A3F6 /* Build configuration list for PBXNativeTarget "MaskTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04361FB921AFF5530082A3F6 /* Debug */,
+				04361FBA21AFF5530082A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04361FBB21AFF5530082A3F6 /* Build configuration list for PBXNativeTarget "MaskTipViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04361FBC21AFF5530082A3F6 /* Debug */,
+				04361FBD21AFF5530082A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04361FBE21AFF5530082A3F6 /* Build configuration list for PBXNativeTarget "MaskTipViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04361FBF21AFF5530082A3F6 /* Debug */,
+				04361FC021AFF5530082A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04361F8421AFF53C0082A3F6 /* Project object */;
+}
