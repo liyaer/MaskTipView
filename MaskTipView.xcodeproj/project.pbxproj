@@ -15,6 +15,8 @@
 		04361F9F21AFF5530082A3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361F9E21AFF5530082A3F6 /* main.m */; };
 		04361FA921AFF5530082A3F6 /* MaskTipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361FA821AFF5530082A3F6 /* MaskTipViewTests.m */; };
 		04361FB421AFF5530082A3F6 /* MaskTipViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361FB321AFF5530082A3F6 /* MaskTipViewUITests.m */; };
+		04361FC421AFF6A20082A3F6 /* DWL_MaskTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361FC321AFF6A20082A3F6 /* DWL_MaskTipView.m */; };
+		04361FC621AFF77C0082A3F6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04361FC521AFF77C0082A3F6 /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		04361FAF21AFF5530082A3F6 /* MaskTipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskTipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04361FB321AFF5530082A3F6 /* MaskTipViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskTipViewUITests.m; sourceTree = "<group>"; };
 		04361FB521AFF5530082A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04361FC221AFF6A20082A3F6 /* DWL_MaskTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWL_MaskTipView.h; sourceTree = "<group>"; };
+		04361FC321AFF6A20082A3F6 /* DWL_MaskTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWL_MaskTipView.m; sourceTree = "<group>"; };
+		04361FC521AFF77C0082A3F6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +106,14 @@
 		04361F8E21AFF53C0082A3F6 /* MaskTipView */ = {
 			isa = PBXGroup;
 			children = (
-				04361F8F21AFF53C0082A3F6 /* AppDelegate.h */,
-				04361F9021AFF53C0082A3F6 /* AppDelegate.m */,
+				04361F9521AFF53C0082A3F6 /* Main.storyboard */,
 				04361F9221AFF53C0082A3F6 /* ViewController.h */,
 				04361F9321AFF53C0082A3F6 /* ViewController.m */,
-				04361F9521AFF53C0082A3F6 /* Main.storyboard */,
-				04361F9821AFF5520082A3F6 /* Assets.xcassets */,
-				04361F9A21AFF5530082A3F6 /* LaunchScreen.storyboard */,
+				04361FC221AFF6A20082A3F6 /* DWL_MaskTipView.h */,
+				04361FC321AFF6A20082A3F6 /* DWL_MaskTipView.m */,
+				04361FC521AFF77C0082A3F6 /* 4.jpg */,
+				04361FC121AFF69A0082A3F6 /* Others */,
 				04361F9D21AFF5530082A3F6 /* Info.plist */,
-				04361F9E21AFF5530082A3F6 /* main.m */,
 			);
 			path = MaskTipView;
 			sourceTree = "<group>";
@@ -130,6 +134,18 @@
 				04361FB521AFF5530082A3F6 /* Info.plist */,
 			);
 			path = MaskTipViewUITests;
+			sourceTree = "<group>";
+		};
+		04361FC121AFF69A0082A3F6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				04361F8F21AFF53C0082A3F6 /* AppDelegate.h */,
+				04361F9021AFF53C0082A3F6 /* AppDelegate.m */,
+				04361F9821AFF5520082A3F6 /* Assets.xcassets */,
+				04361F9A21AFF5530082A3F6 /* LaunchScreen.storyboard */,
+				04361F9E21AFF5530082A3F6 /* main.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04361FC621AFF77C0082A3F6 /* 4.jpg in Resources */,
 				04361F9C21AFF5530082A3F6 /* LaunchScreen.storyboard in Resources */,
 				04361F9921AFF5520082A3F6 /* Assets.xcassets in Resources */,
 				04361F9721AFF53C0082A3F6 /* Main.storyboard in Resources */,
@@ -264,6 +281,7 @@
 			files = (
 				04361F9421AFF53C0082A3F6 /* ViewController.m in Sources */,
 				04361F9F21AFF5530082A3F6 /* main.m in Sources */,
+				04361FC421AFF6A20082A3F6 /* DWL_MaskTipView.m in Sources */,
 				04361F9121AFF53C0082A3F6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MCBLL5HW5;
 				INFOPLIST_FILE = MaskTipView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +472,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MCBLL5HW5;
 				INFOPLIST_FILE = MaskTipView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
